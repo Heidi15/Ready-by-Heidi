@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ready by Heidi | Expert Asie du Sud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <i class="fas fa-paper-plane"></i> Ready by<span>Heidi</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <span class="subtitle">Exploration Exclusive</span>
+            <h1>L'Âme de l'Asie du Sud</h1>
+            <p>Voyagez au cœur des paysages les plus sauvages et secrets de la planète.</p>
+            
+            <div class="search-box">
+                <input type="text" id="destSearch" placeholder="Chercher un paysage (ex: Inde, Népal...)">
+                <button class="btn-search">Rechercher</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="destinations" id="destinations">
+        <div class="section-title">
+            <h2>Nos Paysages Sacrés</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="grid" id="grid">
+            
+            <div class="card" data-country="Inde">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop" alt="Himalaya Indien">
+                </div>
+                <div class="card-info">
+                    <h3>Inde 🇮🇳</h3>
+                    <p>Vallées mystiques & Sommets enneigés.</p>
+                </div>
+            </div>
+
+            <div class="card" data-country="Pakistan">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1544085311-11a028465b03?q=80&w=800&auto=format&fit=crop" alt="Karakoram Pakistan">
+                </div>
+                <div class="card-info">
+                    <h3>Pakistan 🇵🇰</h3>
+                    <p>Pics vertigineux & Vallée de la Hunza.</p>
+                </div>
+            </div>
+
+            <div class="card" data-country="Afghanistan">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1623862211831-50e56461f31d?q=80&w=800&auto=format&fit=crop" alt="Hindou Kouch Afghanistan">
+                </div>
+                <div class="card-info">
+                    <h3>Afghanistan 🇦🇫</h3>
+                    <p>Montagnes sauvages & Déserts de feu.</p>
+                </div>
+            </div>
+
+            <div class="card" data-country="Bhoutan">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1548263514-63304f932822?q=80&w=800&auto=format&fit=crop" alt="Nature Bhoutan">
+                </div>
+                <div class="card-info">
+                    <h3>Bhoutan 🇧🇹</h3>
+                    <p>Le Royaume du Bonheur & Rizières sacrées.</p>
+                </div>
+            </div>
+
+            <div class="card" data-country="Sri Lanka">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1533154133405-b778c85b5d8a?q=80&w=800&auto=format&fit=crop" alt="Nature Sri Lanka">
+                </div>
+                <div class="card-info">
+                    <h3>Sri Lanka 🇱🇰</h3>
+                    <p>Jungles mystiques & Hautes terres de thé.</p>
+                </div>
+            </div>
+
+            <div class="card" data-country="Maldives">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=800&auto=format&fit=crop" alt="Lagons Maldives">
+                </div>
+                <div class="card-info">
+                    <h3>Maldives 🇲🇻</h3>
+                    <p>Lagons turquoises & Coraux préservés.</p>
+                </div>
+            </div>
+
+            <div class="card" data-country="Népal">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1588126838848-f8a48c668461?q=80&w=800&auto=format&fit=crop" alt="Annapurna Népal">
+                </div>
+                <div class="card-info">
+                    <h3>Népal 🇳🇵</h3>
+                    <p>Le toit du monde & Treks d'exception.</p>
+                </div>
+            </div>
+
+            <div class="card" data-country="Bangladesh">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1585123334904-845d60e97b29?q=80&w=800&auto=format&fit=crop" alt="Nature Bangladesh">
+                </div>
+                <div class="card-info">
+                    <h3>Bangladesh 🇧🇩</h3>
+                    <p>Delta luxuriant & Mangroves infinies.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
